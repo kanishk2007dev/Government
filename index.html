@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Blocked - Government of India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .seal-container {
+            border-bottom: 4px solid #0055a4;
+        }
+        .alert-bg {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Header / Seal Area -->
+    <header class="bg-white shadow-sm py-6 seal-container">
+        <div class="container mx-auto px-4 flex flex-col items-center">
+            <div class="flex space-x-8 mb-4">
+                <!-- Emblem Placeholder -->
+                <svg width="60" height="60" viewBox="0 0 100 100" class="text-gray-500">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M50 15 L50 85 M15 50 L85 50" stroke="currentColor" stroke-width="2"/>
+                    <text x="50" y="55" font-size="7" text-anchor="middle" fill="currentColor" font-weight="bold">GOVT OF INDIA</text>
+                </svg>
+            </div>
+            <h1 class="text-xl md:text-2xl font-bold text-gray-800 text-center uppercase tracking-wider">
+                Ministry of Electronics and Information Technology
+            </h1>
+            <p class="text-blue-700 font-semibold uppercase text-sm tracking-widest mt-1">Cyber Law & Security Division</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center p-6">
+        <div class="max-w-2xl w-full bg-white rounded-lg shadow-2xl border border-red-200 overflow-hidden">
+            <div class="alert-bg p-6 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <h2 class="text-2xl font-black text-white uppercase tracking-tighter">Site Access Restricted</h2>
+            </div>
+            
+            <div class="p-8 text-center">
+                <div class="mb-6 space-y-4">
+                    <p class="text-gray-900 text-lg leading-relaxed font-bold">
+                        This website has been blocked by the Government of India.
+                    </p>
+                    <p class="text-gray-700 text-md border-l-4 border-red-600 pl-4 bg-red-50 py-3 text-left">
+                        <strong>Reason:</strong> Illegal use of official Indian Government logos, NIC insignia, and Digital India branding.
+                    </p>
+                    <p class="text-red-700 text-md font-bold bg-yellow-50 p-3 border border-yellow-200 rounded">
+                        Krop Digital Media Entertainment Corporation (KDEC) is identified as an illegal entity operating in violation of national symbols and digital trust frameworks.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-5 rounded-md border border-gray-200 text-left mb-6">
+                    <h3 class="text-xs font-bold text-gray-500 uppercase mb-2 tracking-widest">Statutory Notice:</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">
+                        Accessing or distributing content from this source may be a violation of the <strong>Information Technology Act, 2000</strong> and the <strong>State Emblem of India (Prohibition of Improper Use) Act, 2005</strong>. KDEC and associated domains are flagged for fraudulent representation of government affiliations.
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-4">
+                    <div class="text-xs font-mono text-gray-400 bg-gray-100 py-1 rounded">
+                        Case Ref: IND/MEITY/KDEC-LE-99/2024
+                    </div>
+                    <button onclick="window.location.href='https://www.meity.gov.in'" class="inline-block mx-auto px-8 py-3 bg-slate-800 hover:bg-black text-white text-xs font-bold rounded uppercase transition duration-300">
+                        View Official MEITY Guidelines
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white py-8 border-t border-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-4 mb-4 opacity-50 grayscale">
+                <!-- Placeholder for small footer logos -->
+                <div class="w-10 h-10 border border-gray-400 rounded-full flex items-center justify-center text-[8px] font-bold">NIC</div>
+                <div class="w-10 h-10 border border-gray-400 rounded-full flex items-center justify-center text-[8px] font-bold">CERT</div>
+            </div>
+            <p class="text-gray-400 text-[11px] uppercase tracking-widest">
+                National Informatics Centre | Department of Telecommunications
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
